@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_menu_Home"
+            android:title="Güncel Durum"/>
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_menu_MapHybrid"
+            android:title="Hibrit"/>
+
+        <item
+            android:id="@+id/drawer_menu_MapNormal"
+            android:title="Normal"/>
+
+        <item
+            android:id="@+id/drawer_menu_MapSatallite"
+            android:title="Uydu"/>
+
+        <item
+            android:id="@+id/drawer_menu_MapTerrain"
+            android:title="Arazi"/>
+    </group>
+    <group android:id="@+id/grp4" android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_menu_Settings"
+            android:title="Ayarlar"/>
+    </group>
+</menu>

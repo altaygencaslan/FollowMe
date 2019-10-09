@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="400px"
+              android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="70px"
+        android:src="@drawable/common_signin_btn_icon_focus_dark"
+        android:id="@+id/ivLogo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow Me"
+        android:layout_marginTop="125px"
+        android:layout_marginLeft="25px"
+        android:id="@+id/tvHeader"
+        android:textStyle="bold"
+        android:textSize="40px"
+        android:layout_toRightOf="@id/ivLogo"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="follow me, follow me, follow me...."
+        android:layout_marginLeft="25px"
+        android:textStyle="italic"
+        android:layout_below="@id/tvHeader"
+        android:layout_toRightOf="@id/ivLogo"/>
+
+</RelativeLayout>
